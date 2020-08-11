@@ -1,0 +1,42 @@
+#!/usr/bin/python
+global a,b,q,a1,r
+a=0
+b=0
+q=0
+a1=0
+r=0
+
+def main():
+    print("The value of a is"," ",a)
+    print("The value of b is"," ",b)
+    print("The value of q is"," ",q)
+ 
+def gcd():
+        
+        
+	a=int(input("Type your number"))
+	b=int(input("Type your 2nd number"))
+        print("the first value is\n:",a,"the 2nd number is\n:",b)
+        q=(a//b)
+        print("###First step##")
+        r=(b%a)
+        a1=q*b+r
+        if(b==0):
+            print("exit")
+            
+        main()
+def gcd1():
+        print("###2nd step###")
+        a1==b
+        b==r
+        a1=q*b+r
+        if(b==0):
+            print("exit")
+            
+        main()
+
+
+        
+gcd()
+gcd1()
+
